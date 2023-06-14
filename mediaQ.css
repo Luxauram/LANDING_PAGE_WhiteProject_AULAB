@@ -1,0 +1,59 @@
+@media screen and (max-width: 576px) {
+  .bg-navbar {
+    position: relative;
+    height: 15vh;
+    padding-right: 1000px;
+  }
+  .logo {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .custom-quotes {
+    position: relative;
+  }
+  .custom-quotes::before {
+    content: '“';
+    position: absolute;
+    color: var(--myBlue);
+    font-size: 120px;
+    top: -62px;
+    left: -35px;
+  }
+  .text {
+    margin-left: 30px;
+  }
+
+  .card-blue {
+    margin-top: -120px;
+  }
+  .card-white {
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  .w-custom {
+    width: 75%;
+  }
+  .img-panel {
+    width: 100vw;
+  }
+
+  .stuff-card-1,
+  .stuff-card-2,
+  .stuff-card-3,
+  .stuff-card-4,
+  .stuff-card-5,
+  .stuff-card-6 {
+    width: 90vw;
+    margin-bottom: 10px;
+  }
+
+  .cardDownload {
+    width: 90vw;
+    height: 25vh;
+  }
+
+  .other-stuff {
+    margin-bottom: 0px;
+  }
+}
